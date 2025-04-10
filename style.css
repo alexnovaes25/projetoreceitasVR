@@ -3,6 +3,9 @@ html {
   width: 100%;
 }
 
+body {
+  background-color: burlywood;
+}
 table {
     width: 100%;
     border-collapse: collapse; /* Remove espaços entre as bordas */
@@ -44,7 +47,7 @@ body, html {
 }
 
 #receitas {
-  background-color: #62e130;
+  background-color: #a36217;
   border: 10px solid #0077cc;
   padding: 20px;
 }
