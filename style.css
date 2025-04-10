@@ -46,8 +46,11 @@ body, html {
     padding: 0;
 }
 
+a{
+  color: blanchedalmond;
+}
 #receitas {
   background-color: #a36217;
-  border: 10px solid #0077cc;
+  border: 2px solidrgb(243, 243, 176)c;
   padding: 20px;
-}
+  }
