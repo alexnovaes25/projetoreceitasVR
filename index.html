@@ -1,9 +1,8 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Receitas Net</title>
   <link rel="stylesheet" href="style.css">
 </head>
@@ -11,7 +10,7 @@
 <body style="background-color: lightpink;">
   <main>
 
-    <img src="banner.png" width="100%" height="400">
+    <img src="banner.png" width="100%" height="400" alt="Banner de receitas">
 
     <section id="inicio">
       <h1>Bem-vindos ao melhor site de Receitas da Internet</h1>
@@ -22,44 +21,43 @@
 
     <section id="receitas">
       <h2>Tipos de Receitas</h2>
-    </section>
       <ul>
         <li><a href="bolos.html">Bolos</a></li>
         <li><a href="tortas.html">Tortas</a></li>
         <li><a href="salgados.html">Salgados</a></li>
         <li><a href="doces.html">Doces</a></li>
-        <li>Pães</li>
-        <li>Bebidas</li>
+        <li><a href="#">Pães</a></li>
+        <li><a href="#">Bebidas</a></li>
       </ul>
+    </section>
 
-  <table>
-    <thead>
-      <tr>
-        <th colspan="3">Conheça nossos produtos</th>
-      </tr>
-      <tr>
-        <th>Bolos</th>
-        <th>Torta</th>
-        <th>Palha Italiana</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><img src="bolo.jpg" width="250" height="350"> </td>
-        <td><img src="torta.jpg" width="250" height="350"></td>
-        <td><img src="palha.jpeg" width="250" height="250"> </td>
-      </tr>
-      <tr>
-        <td><a href="bolo_cenoura.html">Clique aqui para obter a Receita </a></td>
-        <td><a href="tortademaca.html">Clique aqui para obter a Receita </a></td>
-        <td><a href="palhaitaliana.html">Clique aqui para obter a Receita </a></td>
-      </tr>
-    </tbody>
-  </table>
-  
+    <section id="produtos">
+      <h2>Conheça nossos produtos</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Bolos</th>
+            <th>Torta</th>
+            <th>Palha Italiana</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><img src="bolo.jpg" width="250" height="350" alt="Bolo"></td>
+            <td><img src="torta.jpg" width="250" height="350" alt="Torta"></td>
+            <td><img src="palha.jpeg" width="250" height="250" alt="Palha Italiana"></td>
+          </tr>
+          <tr>
+            <td><a href="bolo_cenoura.html">Clique aqui para obter a Receita</a></td>
+            <td><a href="tortademaca.html">Clique aqui para obter a Receita</a></td>
+            <td><a href="palhaitaliana.html">Clique aqui para obter a Receita</a></td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
 
-</main>
+  </main>
 
-<script src="script.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
