@@ -2,3 +2,49 @@ html {
   height: 100%;
   width: 100%;
 }
+
+table {
+    width: 100%;
+    border-collapse: collapse; /* Remove espaços entre as bordas */
+}
+th, td {
+    border: 2px solid black; /* Adiciona bordas às células */
+    padding: 8px; /* Adiciona espaçamento interno às células */
+    text-align: center;
+}
+th {
+    background-color: red; /* Cor de fundo para o cabeçalho */
+    color: yellow; /* Cor do texto no cabeçalho */
+}
+
+h1 {
+    color: brown;
+    text-align: center;
+}
+
+h2 {
+    color: brown
+}
+
+p{
+    color: brown;
+}
+
+a{
+    color: brown;
+}
+
+li{
+    color: brown;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+#receitas {
+  background-color: #62e130;
+  border: 2px solid #0077cc;
+  padding: 20px;
+}
