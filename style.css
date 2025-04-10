@@ -54,3 +54,8 @@ a{
   border: 2px solidrgb(243, 243, 176)c;
   padding: 20px;
   }
+
+  footer{
+  background-color: #a36217;
+  padding: 40px;
+  }
