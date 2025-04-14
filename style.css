@@ -20,25 +20,16 @@ th {
     color: yellow; /* Cor do texto no cabeçalho */
 }
 
-h1 {
-    color: brown;
-    text-align: center;
-}
-
-h2 {
-    color: brown
-}
-
 p{
-    color: brown;
+    color: rgb(255, 255, 255);
 }
 
 a{
-    color: brown;
+    color: rgb(255, 255, 255);
 }
 
 li{
-    color: brown;
+    color: rgb(255, 255, 255);
 }
 
 body, html {
@@ -62,7 +53,6 @@ a{
 
   .titulo{
     color: rgb(255, 255, 255);
-    font-weight: bold;
     font-size: 18px;
     font-family: cursive;
   }
