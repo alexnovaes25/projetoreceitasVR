@@ -1,0 +1,109 @@
+table {
+    width: 100%;
+    border-collapse: collapse; /* Remove espaços entre as bordas */
+}
+
+th, td {
+    border: 2px solid black; /* Adiciona bordas às células */
+    padding: 8px; /* Adiciona espaçamento interno às células */
+    text-align: center;
+}
+
+th {
+    background-color: red; /* Cor de fundo para o cabeçalho */
+    color: yellow; /* Cor do texto no cabeçalho */
+}
+
+h1 {
+    color: brown;
+    text-align: center;
+}
+
+h2 {
+    color: brown;
+}
+
+p {
+    color: brown;
+}
+
+a {
+    color: brown;
+}
+
+li {
+    color: brown;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+#inicio {
+    background-color: #b88d0a83;
+    padding: 20px;
+    border-bottom: 2px solid #ccc;
+}
+
+#receitas {
+    background-color: #1d9a1d;
+    padding: 20px;
+    border-bottom: 2px dashed #999;
+    text-align: center;
+}
+
+/* --- ESTILO PARA O FORMULÁRIO --- */
+
+.form-container {
+    max-width: 600px;
+    margin: 30px auto;
+    background-color: #fff5f8;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+    border: 1px solid #dcb;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-top: 15px;
+    font-weight: bold;
+    color: brown;
+}
+
+form input,
+form select,
+form textarea {
+    margin-top: 5px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    box-sizing: border-box;
+}
+
+form textarea {
+    resize: vertical;
+}
+
+form button {
+    margin-top: 25px;
+    padding: 12px;
+    font-size: 18px;
+    background-color: brown;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #a0522d;
+}
